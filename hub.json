@@ -1,0 +1,1 @@
+{"name": ".NET Strict Rules", "slug": "rules-dotnet-strict", "kind": "rules-pack", "description": "Strict C#/.NET rules: nullable-safe, async-correct, analyzer-clean code enforced as hard constraints.", "version": "1.0.0", "priceMinor": 0, "currency": "USD", "contentDir": "rules"}
