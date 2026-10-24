@@ -4,11 +4,11 @@ A Camillia rules pack that enforces strict, modern C#/.NET practice as hard cons
 
 ## Rules at a glance
 
-- **Nullability** (`rules/nullability.md`) - nullable reference types always on, nullable warnings as errors, no null-forgiving `!` abuse, no `#nullable disable` in new code.
-- **Async** (`rules/async.md`) - `ConfigureAwait(false)` in libraries, `Async` suffix naming, no `async void`, never block with `.Result` / `.Wait()`, cancellation tokens everywhere.
-- **Time and dates** (`rules/time.md`) - no `DateTime.Now`; inject `TimeProvider`, store instants as `DateTimeOffset` / UTC, fake the clock in tests.
-- **Types and API design** (`rules/types.md`) - records for DTOs, immutable data carriers, no public fields, sealed classes, restrictive accessibility.
-- **Style and build** (`rules/style-and-build.md`) - file-scoped namespaces, no `#region`, analyzer-clean builds with warnings as errors, formatting verified in CI.
+- **Nullability** (`rules/cam-ext-dotnet-strict-nullability.md`) - nullable reference types always on, nullable warnings as errors, no null-forgiving `!` abuse, no `#nullable disable` in new code.
+- **Async** (`rules/cam-ext-dotnet-strict-async.md`) - `ConfigureAwait(false)` in libraries, `Async` suffix naming, no `async void`, never block with `.Result` / `.Wait()`, cancellation tokens everywhere.
+- **Time and dates** (`rules/cam-ext-dotnet-strict-time.md`) - no `DateTime.Now`; inject `TimeProvider`, store instants as `DateTimeOffset` / UTC, fake the clock in tests.
+- **Types and API design** (`rules/cam-ext-dotnet-strict-types.md`) - records for DTOs, immutable data carriers, no public fields, sealed classes, restrictive accessibility.
+- **Style and build** (`rules/cam-ext-dotnet-strict-style-and-build.md`) - file-scoped namespaces, no `#region`, analyzer-clean builds with warnings as errors, formatting verified in CI.
 
 ## Install
 
